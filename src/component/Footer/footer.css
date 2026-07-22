@@ -28,13 +28,16 @@
     color: #ccc;
     margin-bottom:10px ;
     list-style: none;
-    cursor: pointer;
 }
 
+.footer-section li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
-
-.footer-section li:hover{
-    color: #fff;
+.footer-section li a:hover{
+    color: #ff6b00;
 }
 
 .footer-bottom{
