@@ -10,17 +10,10 @@ const About = () => {
             <div className="about-container">
                 <div className="about-text">
                     <h1>About Us</h1>
-                    <p>Welcome to our culinary corner, where passion for authentic flavors meets the joy of cooking.
-                        We believe every meal tells a story, and we are here to share the finest recipes, cooking tips,
-                        and food discoveries with you.Our mission is to make delicious, restaurant-quality meals accessible to everyone,
-                        whether you are a complete beginner or a seasoned home cook.Every recipe we feature is carefully tested in our
-                        kitchen, ensuring it is packed with flavor, easy to follow, and guaranteed to impress your loved ones.
-                        We focus on using fresh, seasonal ingredients and bringing a modern twist to traditional favorites.
-                        More than just a food website, we are a community of passionate eaters and creators who celebrate the universal
-                        language of good food. Explore our curated collections, find your next favorite dish,
-                        and let us inspire your daily dining experience.</p>
-                        <button className="about-button">Learn More</button>
-
+                    <p>Welcome to <strong>Foodie</strong> — where every dish is crafted with love and served with a smile. We bring you the authentic flavours of India, from street-style Vada Pav to royal Rajasthani Thalis, all under one roof.</p>
+                    <p>Our mission is simple: deliver fresh, delicious, and affordable food right to your doorstep. Whether it's a quick snack or a full thali meal, we make sure every bite leaves you wanting more.</p>
+                    <p>What sets us apart is our commitment to quality. Every ingredient is handpicked, every recipe is tested, and every order is prepared with care. Because at Foodie, we don't just serve food — we serve happiness.</p>
+                    <button className="about-button">Learn More</button>
                 </div>
                 <div className="about-images">
                     <img src={img} alt="about" />
