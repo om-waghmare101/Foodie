@@ -191,6 +191,7 @@ This project helped in understanding:
 - Cart Management Logic
 - Responsive Web Design
 - Modern CSS Styling
+- Testing CodeRabbit AI review
 
 ---
 
