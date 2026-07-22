@@ -27,19 +27,21 @@
     color: #555;
 }
 
-.about-btn{
-    padding:10px;
+.about-button{
+    padding:12px 28px;
     border:none;
-    background-color: #ff5900;
-    font-size:16px;
+    background: linear-gradient(135deg, rgb(255, 33, 33), rgb(255, 0, 0));
+    color: white;
+    font-size:15px;
+    font-weight: 600;
     cursor: pointer;
-    border-radius: 5px;
-
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-.about-btn:hover{
-    background-color: #b34200;
-
+.about-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
 }
 
 .about-images{
