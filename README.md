@@ -4,22 +4,41 @@ Foodie is a responsive food ordering web application developed using **HTML, CSS
 
 ---
 
-## 📸 Preview
+## 🌐 Live Demo
 
-### Home Page
-- Responsive navigation bar
-- Food cards with images, prices, and Add to Cart button
-- Search functionality
-
-### Cart Sidebar
-- View selected items
-- Increase/Decrease quantity
-- Remove items
-- Dynamic total calculation
-- Place Order button
-- QR Code payment option
+🔗 link here
 
 ---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+<img width="1901" height="917" alt="Home" src="https://github.com/user-attachments/assets/9d1b410d-1eab-44ea-bbce-14fe17fb4fa1" />
+
+
+### 🍽️ Menu Section
+
+<img width="1902" height="917" alt="menu" src="https://github.com/user-attachments/assets/2f301b8b-0b2c-4e9a-ae54-20bf7fa58967" />
+
+
+### 🛒 Cart & Payment
+
+<img width="1901" height="920" alt="cartsection" src="https://github.com/user-attachments/assets/c4fcc6be-c89b-4c33-a4eb-68ca410e6604" />
+
+
+### ℹ️ About Section
+
+<img width="1897" height="832" alt="about" src="https://github.com/user-attachments/assets/3984e9bb-41f0-411a-8de9-3e9dbab9a1ba" />
+
+
+### 📩 Contact Section
+
+<img width="1895" height="756" alt="contact" src="https://github.com/user-attachments/assets/90127e96-6a00-4e0c-a3b6-50c2be8f6600" />
+
+---
+
+
 
 ## 🚀 Features
 
