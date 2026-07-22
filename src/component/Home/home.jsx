@@ -22,7 +22,7 @@ import meduvada from "../../assets/medu-vada.jpg"
 import idli from "../../assets/idli.jpg"
 
 import maha_thali from "../../assets/Maha-thali.jpg"
-import panjabi_thali from "../../assets/Panjabi-thali.jpg"
+import panjabi_thali from "../../assets/Panjabi-Thali.jpg"
 import rajasthani_thali from "../../assets/rajasthani-thali.png"
 import south_thali from "../../assets/south-thali.jpg"
 
