@@ -1,16 +1,49 @@
-# React + Vite
+# 🍔 Foodie - Food Ordering Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Foodie is a responsive food ordering web application developed using **HTML, CSS, JavaScript, and React.js**. The application allows users to browse food items, search for dishes, add items to the cart, manage quantities, and place orders with a QR code payment option.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🍕 Responsive UI Design with Hero Banner Offers
+- 🔍 Search food items in real time
+- 🛒 Add products to cart
+- ➕ Increase/Decrease item quantity
+- ❌ Remove items from cart
+- 💰 Automatic total price calculation
+- 📱 QR Code payment section
+- ⚛️ React Component-based architecture
+- 🎨 Modern and clean themed UI (Red & Orange)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- React.js
+- React Hooks
+- React Router
+- React Icons
+- Vite
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/om-waghmare101/Foodie.git
+cd Foodie
+npm install
+npm run dev
+```
+
+The application will start on: `http://localhost:5173`
+
+---
+
+## 👨‍💻 Author
+
+**Om Waghmare**
