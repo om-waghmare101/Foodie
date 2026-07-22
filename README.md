@@ -6,7 +6,7 @@ Foodie is a responsive food ordering web application developed using **HTML, CSS
 
 ## 🌐 Live Demo
 
-🔗 link here
+🔗 link here -https://foodie-i5fuxo26j-omwaghmare.vercel.app/
 
 ---
 
