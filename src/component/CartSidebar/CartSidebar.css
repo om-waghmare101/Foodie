@@ -1,0 +1,173 @@
+.Sidebar{
+    position: fixed;
+    top:0;
+    right: 0;
+    width : 280px;
+    height:100vh;
+    background: white;
+    padding: 15px;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow-y: auto;
+    border-left: 3px solid #ff6b00;
+}
+
+.closeBtn{
+    background: linear-gradient(135deg, rgb(255, 33, 33), rgb(255, 0, 0));
+    color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    float: right;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.closeBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 8px rgba(255, 0, 0, 0.4);
+}
+
+.Sidebar h2{
+    font-size: 16px;
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ff6b00;
+}
+
+.cartItem{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cartItem img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.cartDetails{
+    flex: 1;
+    min-width: 0;
+}
+
+.cartDetails p:first-child{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cartDetails p:last-child{
+    font-size: 11px;
+    color: #ff6b00;
+    font-weight: 700;
+    margin: 2px 0 0;
+}
+
+.qtyControls{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.qtyControls button{
+    background: linear-gradient(135deg, rgb(255, 33, 33), rgb(255, 0, 0));
+    color: white;
+    border: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.qtyControls button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 2px 6px rgba(255, 0, 0, 0.4);
+}
+
+.qtyControls span{
+    font-size: 13px;
+    font-weight: 700;
+    min-width: 16px;
+    text-align: center;
+}
+
+.removeBtn{
+    background: #ff6b00;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+    flex-shrink: 0;
+}
+
+.removeBtn:hover{
+    background: #e65c00;
+}
+
+.total{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.OrderBtn{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, rgb(255, 33, 33), rgb(255, 0, 0));
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.OrderBtn:hover{
+    transform: scale(1.02);
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.4);
+}
+
+.qrBox{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qrBox h2{
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.qrBox h3{
+    font-size: 13px;
+    margin-top: 10px;
+}

@@ -1,0 +1,136 @@
+.mainContainer {
+    width: 100%;
+    background: linear-gradient(135deg, rgb(255, 33, 33), rgb(255, 0, 0));
+    box-shadow: 0 3px 10px rgb(0, 0, 0.15);
+
+}
+
+nav {
+    max-width: 1250px;
+    margin: auto;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.listItem li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 2px;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+
+}
+
+.listItem li a:hover:after {
+    width: 100%;
+}
+
+.listItem li a:hover {
+    color: aliceblue;
+}
+
+.foodLogo {
+    font-size: 35px;
+    animation: bounce 2s infinite;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.listItem li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+
+}
+
+.listItem li:last-child a,
+.cartLink {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.cartLink:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.cartBadge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: white;
+    color: #ff2121;
+    font-size: 10px;
+    font-weight: 700;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+}
+
+@media(max-width:768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .listItem {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 24px;
+
+    }
+
+}
